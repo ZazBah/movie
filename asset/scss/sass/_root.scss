@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Jura:wght@700&family=Kaushan+Script&family=Poppins:wght@400;500;600&display=swap');
+
+// $color-white: ;
+// $color-orange: ;
+// $color-light: ;
+
+// $bg-color-dark: ;
+// $bg-color-light: ;
+
+$Inter: 'Inter', sans-serif;
+$Jura: 'Jura', sans-serif;
+$Kaushan: 'Kaushan Script', cursive;
+$Poppins: 'Poppins', sans-serif;
+
+
+// $font-bold: ;
+// $font-semibold: ;
+// $font-bolder: ;
+
+// $font-size-normal: ;
+// $font-size-medium: ;
+// $font-size-learge: ;
+
+// @media screen and (max-width: 768px){
+//     $font-size-normal: ;
+//     $font-size-medium: ;
+//     $font-size-learge: ;
+// }
+// @media screen and (max-width: 320px){
+//     $font-size-normal: ;
+//     $font-size-medium: ;
+//     $font-size-learge: ;
+// }
+
+// @mixin heading1 {
+
+// }
+// @mixin heading2 {
+
+// }
+// @mixin pera {
+
+// }
+.opacity0{
+    opacity: 0;
+}
+.imgbox{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}

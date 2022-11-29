@@ -1,0 +1,114 @@
+.banner{
+    background: url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .overlay{
+        width: 100%;
+        padding: 160px 0 0;
+        background: linear-gradient(to right, #010101, #1FA9B400);
+        h2{
+            font-family: $Kaushan;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 112%;
+            text-align: center;
+            letter-spacing: 0.15em;
+            color: #FFFFFF;
+        }
+        h3{
+            font-family: $Inter;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 112%;
+            letter-spacing: 0.15em;
+            color: #FFFFFF;
+        }
+        p{
+            font-family: $Inter;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.15em;
+            color: #FFFFFF;
+        }
+        button{
+            background: #244B49;
+            padding: 16px 20px;
+            font-family: $Inter;
+            font-weight: 600;
+            font-size: 29px;
+            line-height: 112%;
+            letter-spacing: 0.15em;
+            color: #FFFFFF;
+            border-radius: 5px;
+            border: none;
+            margin-right: 10px;
+            margin-bottom: 28px;
+            transition: all linear 0.3s;
+            .play{
+                fill: #FFFFFF;
+            }
+            .info{
+                path{
+                    stroke: #FFFFFF;
+                }
+            }
+            &:hover{
+                background: #FFFFFF;
+                color: #173157;
+                .play{
+                    fill: #173157;
+                }
+                .info{
+                    path{
+                        stroke: #173157;
+                    }
+                }
+            }
+        }
+        h4{
+            font-family: $Poppins;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 112%;
+            letter-spacing: 0.15em;
+            text-align: right;
+            color: #D9D9D9;
+        }
+        .banner_slider{
+            .slider_item{
+                margin: 5px 10px 0px 10px;
+                .slide_content{
+                    position: relative;
+                    overflow: hidden;
+                    .overlay{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0;
+                        transition: all linear 0.3s;
+                        svg{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            cursor: pointer;
+                            path,
+                            circle{
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    &:hover{
+                        .overlay{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

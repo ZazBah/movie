@@ -1,0 +1,39 @@
+.entertainment{
+    padding: 120px 0px;
+    h2{
+        font-family: $Inter;
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 0.15em;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    p{
+        font-family: $Poppins;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.15em;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    button{
+        background: #244B49;
+        padding: 16px 20px;
+        font-family: $Inter;
+        font-weight: 600;
+        font-size: 29px;
+        line-height: 112%;
+        letter-spacing: 0.15em;
+        color: #FFFFFF;
+        border-radius: 5px;
+        border: none;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        transition: all linear 0.3s;
+        &:hover{
+            background: #FFFFFF;
+            color: #173157;
+        }
+    }
+}
